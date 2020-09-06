@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+}
+
+@media screen and (min-width:800px) {
+    .calendario {
+        max-width: 500px;
+        float: right;
+    }
+}
+
+.calendario .mes {
+    padding: 40px 25px;
+    background: #457b9d;
+    text-align: center;
+    color: white !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.calendario .dias-semana {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.calendario .dias-semana li {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+
+.calendario .dias-mes {
+    margin: 0;
+    padding: 10px 0;
+    background: #eee;
+}
+
+.calendario .dias-mes li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    font-size:12px;
+    color: #777;
+}
